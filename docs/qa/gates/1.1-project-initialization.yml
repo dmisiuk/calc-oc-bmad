@@ -23,8 +23,16 @@ evidence:
   tests_reviewed: 8
   risks_identified: 6
   trace:
+    totals:
+      requirements: 6
+      full: 6
+      partial: 0
+      none: 0
+    planning_ref: 'docs/qa/assessments/1.1-trace-20250921.md'
+    uncovered: []
     ac_covered: [1, 2, 3, 4, 5, 6]
     ac_gaps: []
+    notes: 'See docs/qa/assessments/1.1-trace-20250921.md'
 
 nfr_validation:
   security:
