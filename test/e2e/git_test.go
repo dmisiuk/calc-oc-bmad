@@ -14,7 +14,7 @@ func TestGitRepositoryInitialized(t *testing.T) {
 }
 
 func TestInitialCommitExists(t *testing.T) {
-	cmd := exec.Command("git", "log", "--oneline", "-1")
+	cmd := exec.Command("git", "log", "--oneline")
 	cmd.Dir = "../../"
 	output, err := cmd.Output()
 	if err != nil {
